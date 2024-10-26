@@ -1,31 +1,20 @@
 export default {
-    en: [
+	en: [
 		{
-			text: 'About',
-			url: '/about/'
+			text: "Coaching & Mentoring",
+			url: "/coaching-mentoring/",
 		},
 		{
-			text: 'Documentation',
-			url: '/'
+			text: "Consulting",
+			url: "/consulting/",
 		},
 		{
-			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
-		}
-    ],
-    sv: [
-		{
-			text: 'Om',
-			url: '/om/'
+			text: "Schedule a Call",
+			url: "https://zcal.co/brienna",
 		},
 		{
-			text: 'Dokumentation',
-			url: '/'
+			text: "About",
+			url: "/about/",
 		},
-		{
-			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
-		}
-    ]
+	],
 };
-  
