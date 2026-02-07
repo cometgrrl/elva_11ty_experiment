@@ -18,8 +18,35 @@
 	--nord13: #efc571;
 	--nord14: #a3be8c;
 	--nord15: #b48ead;
+	/* tokyo night light colors */
+	--tokyo_night_light01: #e1e2e7; /* light lavender grey, background */
+	--tokyo_night_light02: #706d74; /* denim blue #3760bf, foreground */
+	--tokyo_night_light04: #d5e5f7; /* light periwinkle, selection-background */
+	--tokyo_night_light03: #848cb5; /* cool-grey, comment */
+	--tokyo_night_light_red: #ce5ba0; /* d47d85 */
+	--tokyo_night_light_orange: #d99763;
+	--tokyo_night_light_yellow: #ccac69;
+	--tokyo_night_light_green: #93c080;
+	--tokyo_night_light_cyan: #68aad3;
+	--tokyo_night_light_blue: #3760bf;
+	--tokyo_night_light_magenta: #a66cc1;
+	--tokyo_night_light_purple: #8c63bd;
 
-	/* colours */
+	/* tokyo night dark colors */
+	--tokyo_night_dark01: #1a1b26; /* Dark Midnight Blue, background */
+	--tokyo_night_dark02: #c0caf5; /* Light Steel Blue, foreground */
+	--tokyo_night_dark04: #364a82; /* Indigo Blue */
+	--tokyo_night_dark03: #565f89; /* Slate Blue Gray, comment*/
+	--tokyo_night_dark_red: #f7768e;
+	--tokyo_night_dark_orange: #ff9e64;
+	--tokyo_night_dark_yellow: #e0af68;
+	--tokyo_night_dark_green: #9ece6a;
+	--tokyo_night_dark_cyan: #7dcfff;
+	--tokyo_night_dark_blue: #7aa2f7;
+	--tokyo_night_dark_magenta: #bb9af7;
+	--tokyo_night_dark_purple: #9d7cd8;
+
+	/* colours original
 	--background: var(--nord6);
 	--background-soft: var(--nord4);
 	--foreground: var(--nord0);
@@ -27,6 +54,17 @@
 	--link: color-mix(in srgb, var(--nord10) 90%, var(--nord0));
 	--link-hover: var(--nord0);
 	--divider: color-mix(in srgb, var(--nord6) 80%, var(--nord0));
+	*/
+
+	/* simplified light */
+	--background: #e6e8ee;
+	--background-soft: #d9dee7;
+	--foreground: #2f3440;
+	--foreground-soft: color-mix(in srgb, #e6e8ee 35%, #2f3440);
+	--link: #b24b7f;
+	--link-hover: #b24b7f;
+	--divider: color-mix(in srgb, #2f3440 22%, #e6e8ee);
+	--header: #b24b7f;
 
 	/* syntax highlighting */
 	--code-background: var(--nord0);
@@ -97,13 +135,14 @@
 /* dark mode */
 :root[data-theme="dark"] {
 	/* colours */
-	--background: var(--nord0);
-	--background-soft: var(--nord2);
-	--foreground: var(--nord6);
-	--foreground-soft: color-mix(in srgb, var(--nord6) 70%, var(--nord0));
-	--link: var(--nord8);
-	--link-hover: var(--nord6);
-	--divider: var(--nord3);
+	--background: #2b313d;
+	--background-soft: #3a4252;
+	--foreground: #f2f4f8;
+	--foreground-soft: color-mix(in srgb, #f2f4f8 70%, #2b313d);
+	--link: #b24b7f;
+	--link-hover: #b24b7f;
+	--divider: color-mix(in srgb, #f2f4f8 18%, #2b313d);
+	--header: #b24b7f;
 
 	/* syntax highlighting */
 	--code-background: var(--nord1);
