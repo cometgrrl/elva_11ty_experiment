@@ -9,8 +9,8 @@
 		"location": "California, USA"
 	},
 	"meta": {
-		"separator": "•",
-		"opengraphDefaultImage": "/assets/img/opengraph-default.png"
+		"separator": "\u2022",
+		"opengraphDefaultImage": "/assets/img/brie-ransom.avif"
 	},
 	"seo": {
 		"defaultChangeFrequency": "monthly",
@@ -21,6 +21,9 @@
 		"backgroundColor": "#eceff4",
 		"display": "minimal-ui",
 		"orientation": "portrait-primary",
-		"categories": ["business", "photo"]
+		"categories": [
+			"business",
+			"photo"
+		]
 	}
 }

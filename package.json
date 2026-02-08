@@ -1,7 +1,7 @@
 {
-  "name": "elva",
+  "name": "brieransom.com",
   "version": "3.0.0",
-  "description": "A multilingual, clean, green, 11ty starter theme",
+  "description": "Brie Ransom coaching, mentoring, and quality engineering consulting site",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -18,7 +18,7 @@
     "release-major": "npm version major --force && npm publish"
   },
   "bugs": {
-    "url": "https://github.com/scottsweb/elva/issues"
+    "url": "https://github.com/cometgrrl/brieransom.com/issues"
   },
   "keywords": [
     "eleventy",
@@ -33,9 +33,9 @@
     "alpine"
   ],
   "author": {
-    "name": "Scott Evans",
-    "url": "https://scott.ee",
-    "email": "git@scott.ee"
+    "name": "Brie Ransom",
+    "url": "https://brieransom.com",
+    "email": "hi@brieransom.com"
   },
   "engines": {
     "node": ">=22"

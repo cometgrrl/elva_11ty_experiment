@@ -22,29 +22,5 @@ export default {
         },
         dark: 'Dark',
         light: 'Light'
-    },
-    sv: {
-        meta: {
-            title: 'Brie Ransom',
-            rssTitle: 'RSS Feed',
-            jsonTitle: 'JSON Feed',
-            description: 'Coaching, mentoring, and quality engineering consulting for women in tech, quality engineers, and leaders.',
-            opengraphDefaultAlt: 'Brie Ransom coaching, mentoring, and quality engineering consulting'
-        },
-        header: {
-            skipLink: 'Hoppa till innehållet',
-            home: 'Hem'
-        },
-        readingTime: {
-            underMinute: 'Mindre än 1 minut att läsa',
-            minute: '1 minut till läsaren',
-            other: '{{ minutes }} minuter att läsa'
-        },
-        feeds: {
-            info: 'Detta är ett RSS feed. Kopiera och klistra in webbadressen i din flödesläsare. Besök <a href="https://aboutfeeds.com">About Feeds</a> för att lära dig mer om RSS.',
-            title: 'Nyligen publicerad'
-        },
-        dark: 'Mörk',
-        light: 'Ljus'
     }
 }
