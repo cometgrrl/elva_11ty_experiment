@@ -392,6 +392,12 @@ body {
 	}
 }
 
+@media (max-width: 900px) and (orientation: landscape) {
+	.site-logo {
+		width: clamp(120px, 30vw, 240px);
+	}
+}
+
 .site-logo svg {
 	color: var(--foreground);
 	width: 100%;
