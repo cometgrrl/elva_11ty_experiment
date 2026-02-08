@@ -368,7 +368,7 @@ body {
 	font-weight: 500;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
 	.navigation {
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -384,7 +384,7 @@ body {
 	flex-shrink: 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
 	.site-logo {
 		width: clamp(240px, 30vw, 390px);
 		position: relative;
@@ -497,7 +497,7 @@ body {
 	display: flex;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
 	.nav-toggle-label {
 		display: none;
 	}
