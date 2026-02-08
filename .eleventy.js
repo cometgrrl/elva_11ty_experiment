@@ -61,6 +61,8 @@ export default async function(eleventyConfig) {
         isStaging: (process.env.URL && process.env.URL.includes('github.io')) || (process.env.CF_PAGES_URL && process.env.CF_PAGES_URL.includes('pages.dev')) || false
     });
 
+    eleventyConfig.addGlobalData('buildTime', () => new Date());
+
     // Watch Targets ----------------------------------
 
     eleventyConfig.addWatchTarget('./content/assets');
