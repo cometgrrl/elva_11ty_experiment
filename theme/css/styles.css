@@ -372,6 +372,7 @@ body {
 	}
 }
 
+
 .site-logo {
 	display: inline-flex;
 	width: clamp(195px, 52vw, 390px);
@@ -401,14 +402,107 @@ body {
 	color: var(--link);
 }
 
+.nav-toggle {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.nav-toggle-label {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	border: 1px solid var(--border);
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.nav-toggle-label:focus {
+	outline: none;
+}
+
+.nav-toggle:focus + .nav-toggle-label {
+	outline: 2px solid var(--link);
+	outline-offset: 3px;
+}
+
+.nav-toggle-icon {
+	position: relative;
+	width: 22px;
+	height: 2px;
+	background: var(--foreground);
+	border-radius: 2px;
+	display: block;
+}
+
+.nav-toggle-icon::before,
+.nav-toggle-icon::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 22px;
+	height: 2px;
+	background: var(--foreground);
+	border-radius: 2px;
+}
+
+.nav-toggle-icon::before {
+	top: -6px;
+}
+
+.nav-toggle-icon::after {
+	top: 6px;
+}
+
+.nav-toggle:checked + .nav-toggle-label .nav-toggle-icon {
+	background: transparent;
+}
+
+.nav-toggle:checked + .nav-toggle-label .nav-toggle-icon::before {
+	transform: rotate(45deg);
+	top: 0;
+}
+
+.nav-toggle:checked + .nav-toggle-label .nav-toggle-icon::after {
+	transform: rotate(-45deg);
+	top: 0;
+}
+
 .navigation-menu {
 	list-style: none;
 	border: 0;
 	margin: 0;
 	padding: 0;
-	display: flex;
+	display: none;
+	flex-direction: column;
 	gap: var(--space-s-m);
 	flex-grow: 1;
+	width: 100%;
+}
+
+.nav-toggle:checked ~ .navigation-menu {
+	display: flex;
+}
+
+@media (min-width: 600px) {
+	.nav-toggle-label {
+		display: none;
+	}
+
+	.navigation-menu {
+		display: flex;
+		flex-direction: row;
+		width: auto;
+	}
 }
 
 .navigation-menu li {
