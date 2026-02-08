@@ -362,20 +362,24 @@ body {
 	gap: var(--space-s-l);
 	align-items: center;
 	font-family: var(--font-headings);
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	font-weight: 500;
 }
 
 @media (min-width: 600px) {
 	.navigation {
 		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
 	}
 }
 
 
 .site-logo {
 	display: inline-flex;
-	width: clamp(195px, 52vw, 390px);
+	width: clamp(145px, 39vw, 292px);
 	height: auto;
 	flex-shrink: 0;
 }
