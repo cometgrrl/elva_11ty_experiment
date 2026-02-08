@@ -148,6 +148,12 @@ h1 {
 	color: var(--foreground);
 }
 
+@media (max-width: 900px) and (orientation: landscape) {
+	.home .home-hero {
+		font-size: var(--step-3);
+	}
+}
+
 h2 {
 	font-size: var(--step-3);
 	color: var(--link);
