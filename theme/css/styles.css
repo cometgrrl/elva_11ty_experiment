@@ -400,7 +400,7 @@ body {
 
 @media (max-width: 900px) and (orientation: landscape) {
 	.site-logo {
-		width: clamp(90px, 24vw, 180px);
+		width: clamp(78px, 21vw, 160px);
 	}
 }
 
