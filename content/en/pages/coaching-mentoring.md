@@ -4,11 +4,10 @@ seo:
   description: Focused coaching for women in tech and quality leaders who want clarity, confidence, and momentum.
 ---
 
-I help you lead from the heart and develop your own unique leadership style.
+As a woman in tech, I know what it's like to question yourself even when you're doing great work.
+I help you lead from the heart, trust your voice, and grow into a leadership style that feels like you.
 
-My goal is to help you unlock your full potential and equip you with the tools you need to excel.
-
-Everyone is different, and coaching isn't one-size-fits-all. Monthly 1:1 sessions are where many clients see the most progress. In those sessions, we'll work together to build clarity, confidence, and a pace that feels sustainable.
+Coaching isn't one-size-fits-all. Monthly 1:1 sessions are where many clients see the most progress, and where we build clarity, confidence, and a plan to achieve your goals.
 
 Together, we often work on:
 
