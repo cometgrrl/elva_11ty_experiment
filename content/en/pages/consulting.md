@@ -6,9 +6,11 @@ seo:
 
 Practical support to strengthen quality culture and deliver better software.
 
+AI is speeding up development, but traditional quality processes can struggle to keep pace. I help teams apply AI to testing and automation so quality matches the new velocity. The result: AI-level velocity while protecting user experience.
+
 Here’s how I support teams:
 
-- Assess quality gaps and define a clear strategy.
+- Assess quality gaps and define a clear AI-enabled testing strategy.
 - Improve testing standards, tools, and processes.
 - Coach teams so quality becomes a shared habit.
 
