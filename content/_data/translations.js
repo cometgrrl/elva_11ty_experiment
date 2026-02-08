@@ -1,11 +1,11 @@
 export default {
     en: {
         meta: {
-            title: 'elva',
+            title: 'Brie Ransom',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
-            description: 'A multilingual, clean, green, 11ty starter theme',
-            opengraphDefaultAlt: 'An English description of the default opengraph image'
+            description: 'Coaching, mentoring, and quality engineering consulting for women in tech, quality engineers, and leaders.',
+            opengraphDefaultAlt: 'Brie Ransom coaching, mentoring, and quality engineering consulting'
         },
         header: {
             skipLink: 'Skip to content',
@@ -25,11 +25,11 @@ export default {
     },
     sv: {
         meta: {
-            title: 'elva',
+            title: 'Brie Ransom',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
-            description: 'A multilingual, clean, green, 11ty starter theme',
-            opengraphDefaultAlt: 'A Swedish description of the default opengraph image'
+            description: 'Coaching, mentoring, and quality engineering consulting for women in tech, quality engineers, and leaders.',
+            opengraphDefaultAlt: 'Brie Ransom coaching, mentoring, and quality engineering consulting'
         },
         header: {
             skipLink: 'Hoppa till innehållet',
