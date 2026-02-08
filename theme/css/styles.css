@@ -330,7 +330,7 @@ body {
 .skip-link {
 	transform: translateY(-140px);
 	transition: var(--transition-base);
-	padding: var(--space-s-l);
+	padding: var(--space-s-m);
 	background-color: var(--foreground);
 	color: var(--background);
 	font-family: var(--font-headings);
@@ -357,7 +357,7 @@ body {
 /* header and navigation */
 
 .navigation {
-	padding: var(--space-s-l);
+	padding: var(--space-s-m);
 	display: flex;
 	gap: var(--space-s-l);
 	align-items: center;
@@ -379,7 +379,7 @@ body {
 
 .site-logo {
 	display: inline-flex;
-	width: clamp(145px, 39vw, 292px);
+	width: clamp(110px, 32vw, 220px);
 	height: auto;
 	flex-shrink: 0;
 }
@@ -394,7 +394,7 @@ body {
 
 @media (max-width: 900px) and (orientation: landscape) {
 	.site-logo {
-		width: clamp(120px, 30vw, 240px);
+		width: clamp(100px, 28vw, 200px);
 	}
 }
 
