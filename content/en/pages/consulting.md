@@ -20,4 +20,4 @@ With over 20 years in quality engineering, I’ve led teams, built quality progr
 
 Previously, I led global quality engineering efforts at Automattic and built a quality and engineering productivity organization from the ground up at Pinger. I’ve also partnered with teams and leaders at companies like Slack, EarnIn, and TestGorilla.
 
-<a href="https://zcal.co/brienna" target="_blank" rel="noopener noreferrer">Schedule a Call</a>
+<a class="btn" href="https://zcal.co/brienna" target="_blank" rel="noopener noreferrer">Schedule a Call</a>

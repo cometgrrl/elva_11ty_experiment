@@ -20,4 +20,4 @@ Women in tech, quality engineers, and leaders who want to do their best work and
 
 Areas I love: leadership development, values exploration, goal setting, habits and systems, and quality engineering.
 
-<a href="https://zcal.co/brienna" target="_blank" rel="noopener noreferrer">Schedule a Call</a>
+<a class="btn" href="https://zcal.co/brienna" target="_blank" rel="noopener noreferrer">Schedule a Call</a>

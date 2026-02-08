@@ -11,11 +11,13 @@
     <ul class="navigation-menu">
         {% for item in navigation[page.lang] %}
         {%- set url = item.url | locale_url %}
+        {%- set isCta = item.text === "Schedule a Call" %}
         {%- set isExternal = item.url and item.url.startsWith('http') %}
         <li>
             <a 
                 href="{{ url }}"
                 {% if page.url === url %}aria-current="page"{% endif %}
+                
                 {% if isExternal %}target="_blank" rel="noopener noreferrer"{% endif %}
             >
                 {{ item.text }}

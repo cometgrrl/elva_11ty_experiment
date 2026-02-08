@@ -31,7 +31,7 @@ body {
 	transition: var(--transition-base);
 	outline: var(--focus-outline);
 	outline-offset: 0.3ch;
-	border-radius: var(--border-radius);
+	border-radius: 6px;
 	text-decoration: none;
 }
 
@@ -52,6 +52,44 @@ a:hover {
 	text-decoration: none;
 }
 
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.4em;
+	padding: 0.6em 1.1em;
+	border-radius: 6px;
+	background-color: var(--link);
+	color: var(--background);
+	text-decoration: none;
+	font-family: var(--font-headings);
+	font-weight: 600;
+	letter-spacing: var(--tracking-s);
+	transition: background var(--transition-base), color var(--transition-base), transform var(--transition-base);
+}
+
+.btn:hover {
+	background-color: var(--link-hover);
+	color: var(--background);
+}
+
+:root[data-theme="dark"] .btn {
+	color: var(--white);
+}
+
+:root[data-theme="dark"] .btn:hover {
+	color: var(--white);
+}
+
+.btn:active {
+	transform: translateY(1px);
+}
+
+.btn-small {
+	padding: 0.45em 0.9em;
+	font-size: var(--step--1);
+}
+
 hr {
 	border-top: 1px solid var(--divider);
 	border-bottom: none;
@@ -61,7 +99,7 @@ p > code,
 li > code {
 	background-color: var(--background-soft);
 	padding: 0.2ch 0.5ch;
-	border-radius: var(--border-radius);
+	border-radius: 6px;
 }
 
 table {
@@ -189,7 +227,7 @@ figure > figcaption {
 	background-color: var(--foreground);
 	padding: var(--space-3xs) var(--space-xs);
 	box-shadow: 0px 4px color-mix(in srgb, var(--foreground), var(--black) 9%);
-	border-radius: var(--border-radius);
+	border-radius: 6px;
 	font-size: var(--step--1);
 }
 
@@ -222,7 +260,7 @@ figure > figcaption::selection {
 }
 
 .rounded {
-	border-radius: var(--border-radius);
+	border-radius: 6px;
 }
 
 .subtle {
@@ -249,7 +287,7 @@ figure > figcaption::selection {
 .notice {
 	padding: var(--space-s) var(--space-s) calc(var(--space-s) - 4px)
 		var(--space-s);
-	border-radius: var(--border-radius);
+	border-radius: 6px;
 	color: var(--white);
 	background-color: var(--nord9);
 	box-shadow: 0px 4px color-mix(in srgb, var(--nord9), var(--black) 9%);
@@ -501,7 +539,7 @@ a[aria-current="page"] {
 .about-photo img {
 	width: 100%;
 	height: auto;
-	border-radius: var(--border-radius);
+	border-radius: 6px;
 }
 
 /* feed xslt */
@@ -529,3 +567,5 @@ a[aria-current="page"] {
 	font-size: var(--step--1);
 	display: block;
 }
+
+

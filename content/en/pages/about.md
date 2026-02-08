@@ -16,4 +16,4 @@ I’m proud of the leader I’ve become and excited to help others on their path
 
 Connect with me on <a href="https://www.linkedin.com/in/brienna-ransom/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or read my newsletter <a href="https://qualityboss.substack.com/" target="_blank" rel="noopener noreferrer">QUALITY BOSS</a>.
 
-<a href="https://zcal.co/brienna" target="_blank" rel="noopener noreferrer">Schedule a Call</a>
+<a class="btn" href="https://zcal.co/brienna" target="_blank" rel="noopener noreferrer">Schedule a Call</a>
