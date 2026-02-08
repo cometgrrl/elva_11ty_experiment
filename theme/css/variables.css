@@ -64,7 +64,7 @@
 	--link: #b24b7f;
 	--link-hover: #b24b7f;
 	--divider: color-mix(in srgb, #2f3440 22%, #e6e8ee);
-	--header: #b24b7f;
+	--header: var(--foreground);
 
 	/* syntax highlighting */
 	--code-background: var(--nord0);
@@ -142,7 +142,7 @@
 	--link: #b24b7f;
 	--link-hover: #b24b7f;
 	--divider: color-mix(in srgb, #f2f4f8 18%, #2b313d);
-	--header: #b24b7f;
+	--header: var(--foreground);
 
 	/* syntax highlighting */
 	--code-background: var(--nord1);

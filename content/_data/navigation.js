@@ -1,7 +1,7 @@
 export default {
 	en: [
 		{
-			text: "Coaching & Mentoring",
+			text: "Coaching",
 			url: "/coaching-mentoring/",
 		},
 		{

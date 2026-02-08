@@ -1,12 +1,14 @@
 ---
-title: Coaching & Mentoring
+title: Coaching
 seo:
-  description: Focused coaching and mentoring for women in tech and quality leaders who want clarity, confidence, and momentum.
+  description: Focused coaching for women in tech and quality leaders who want clarity, confidence, and momentum.
 ---
 
-Through coaching, my goal is to help you uncover your hidden potential and equip you with the tools you need to excel.
+I help you lead from the heart and develop your own unique leadership style.
 
-As a leadership consultant & mentor, I aim to help clients lead from the heart and develop their own unique leadership style.
+My goal is to help you unlock your full potential and equip you with the tools you need to excel.
+
+Everyone is different, and coaching isn't one-size-fits-all. Monthly 1:1 sessions are where many clients see the most progress. In those sessions, we'll work together to build clarity, confidence, and a pace that feels sustainable.
 
 Together, we often work on:
 
@@ -15,7 +17,7 @@ Together, we often work on:
 - Building confidence in leadership and decision-making.
 - Creating habits and systems that support growth.
 
-## Who I Work With
+## Who This Is For
 Women in tech, quality engineers, and leaders who want to do their best work and grow with purpose.
 
 Areas I love: leadership development, values exploration, goal setting, habits and systems, and quality engineering.

@@ -156,7 +156,7 @@ h1 {
 
 h2 {
 	font-size: var(--step-3);
-	color: var(--link);
+	color: var(--header);
 }
 
 h3 {
@@ -541,6 +541,7 @@ a[aria-current="page"] {
 }
 
 /* home */
+
 
 .home #content {
 	display: flex;
