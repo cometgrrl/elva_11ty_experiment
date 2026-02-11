@@ -6,7 +6,7 @@ seo:
 
 Practical support to strengthen quality culture and deliver better software.
 
-AI is speeding up development, but traditional quality processes can struggle to keep pace. I help teams apply AI to testing and automation so quality matches the new velocity. The result: AI-level velocity while protecting user experience.
+AI is speeding up development, but traditional quality processes can struggle to keep pace. I help teams apply AI to testing and automation so quality matches the new velocity. The result: AI-level velocity with a high bar for quality.
 
 Here’s how I support teams:
 
