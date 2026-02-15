@@ -8,7 +8,7 @@ seo:
   <img src="/assets/img/brie-ransom.avif" alt="Brie Ransom" loading="lazy" decoding="async">
 </figure>
 
-I’m Brie Ransom — a coach, mentor, and quality engineering leader. My mission is to support the current and next generation of leaders through coaching, mentoring, and consulting. With 20 years in leadership, software testing, and quality engineering, I’ve faced everything from being one of the few women in the room to overcoming impostor syndrome as a manager.
+Hi 👋, I'm Brie — a coach, mentor, and quality engineering leader. My mission is to support the current and next generation of leaders through coaching, mentoring, and consulting. With 20 years in leadership, software testing, and quality engineering, I’ve faced everything from being one of the few women in the room to overcoming impostor syndrome as a manager.
 
 When I became a manager, I chose to become the kind of role model I wished I had — leading with empathy and authenticity. I started with a three-day “Intro to Management” course and have since read countless books on leadership, productivity, and software testing, along with additional leadership training. I’m currently taking CTI’s coach training and consider myself a lifelong learner.
 
