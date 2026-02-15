@@ -148,7 +148,7 @@ h1 {
 	color: var(--foreground);
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
 	.home .home-hero {
 		font-size: var(--step-3);
 	}
@@ -398,7 +398,7 @@ body {
 	}
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
 	.site-logo {
 		width: clamp(78px, 21vw, 160px);
 	}
@@ -503,6 +503,8 @@ body {
 	gap: var(--space-s-m);
 	flex-grow: 1;
 	width: 100%;
+	align-items: flex-end;
+	text-align: right;
 }
 
 .nav-toggle:checked ~ .navigation-menu {
@@ -518,6 +520,8 @@ body {
 		display: flex;
 		flex-direction: row;
 		width: auto;
+		align-items: center;
+		text-align: left;
 	}
 }
 
